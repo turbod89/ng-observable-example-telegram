@@ -1,0 +1,8 @@
+<div>
+  <ul>
+    <li *ngFor="let message of messages">
+      <em>{{ message.get_from().get_first_name() }}</em>: {{ message.get_text() }}
+    </li>
+  </ul>
+</div>
+
